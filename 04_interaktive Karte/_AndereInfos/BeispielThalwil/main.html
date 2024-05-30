@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script type="module" src="BeispielThalwil/searchControl.js"></script>
+    <script type="module" src="BeispielThalwil/dataRetriever.js"></script>
+    <script type="module" src="BeispielThalwil/mapControls.js"></script>
+ 
+    <link
+      rel="stylesheet"
+      href="BeispielThalwil/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+      src="https://unpkg.com/leaflet-geosearch@3.0.0/dist/geosearch.umd.js"
+    ></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+       <script src="BeispielThalwil/proj4.js"></script>
+    <script src="BeispielThalwil/proj4leaflet.js"></script>
+    <script src='https://unpkg.com/@turf/turf@6/turf.min.js'></script>
+    <script>
+      config = {
+        version: 1.3, 
+        adressServiceConfig: {
+          baseUrl: 'https://api3.geo.admin.ch/rest/services/ech/SearchServer',
+          sr: 2056,
+          lang: 'de',
+          type: 'locations',
+          plz: 8800,
+          bbox: [2682454.9289184813, 1235371.3065382007, 2688066.7414184813, 1240518.7752882007],
+        },
+        adressForCoordinateServiceConfig:{
+          baseUrl:'https://api3.geo.admin.ch/rest/services/api/MapServer/identify',
+          lang: 'de',
+          bbox: [2682454.9289184813, 1235371.3065382007, 2688066.7414184813, 1240518.7752882007],
+          sr: 2056,
+          tolerance: 3,
+          geometryFormat:"geojson",
+          geometryType:"esriGeometryPoint",
+          imageDisplay:[1897,1297,96],
+          layer: "all:ch.bfs.gebaeude_wohnungs_register",
+          limit: 10
+        }, 
+        backGroundMapConfig:{
+          url:'https://www.ogd.stadt-zuerich.ch/mapproxy/wmts/1.0.0/Basiskarte_Zuerich_Raster_Grau/default/ktzh/{z}/{y}/{x}.png',
+          mapCenter: [47.2894, 8.5612],
+          zoom: 3
+        },
+        resultListLimit: 10,
+      };
+    </script>
+  </head>
+  <body>
+    <div class="container-fluid g-0">
+        <div class="row g-0">
+          <div class="col-lg-1 g-0" >
+            <div id="map"></div>
+          </div>
+        <div class="col-lg-1 g-0" id="searchControl">
+          <div class="title m-3">
+            <h4>Ihre Adresse</h4>
+          </div>
+          <div class = "inputForm m-4 w-90">
+            <form  autocomplete="off">
+              <div class="autocomplete">
+                <input id="adressInput" type="text" name="address" placeholder="Adresse" />
+              </div>
+            </form>    
+          </div>
+      </div>
+    </div>
+      
+  </body>
+  <script type="module">
+    import autocomplete from './searchControl.js';
+    import MapControls from './mapControls.js';
+    const newMapControl = new MapControls();
+    newMapControl.createLeafletMap();
+
+    autocomplete(document.getElementById('adressInput'), newMapControl);
+  </script>
+</html>

@@ -1,0 +1,4 @@
+O0287;1;Normalstreifen Richtung Glattbrugg;"""11""";Geschwindigkeit: ja;ASTRA;2678872.621;1253133.964;47.42428591;8.483948718;60
+O0287;2;1. Überholstreifen Richtung Glattbrugg;"""11""";Geschwindigkeit: ja;ASTRA;2678877.208;1253140.808;47.42434691;8.484010708;60
+O0287;3;1. Überholstreifen Richtung Verzw. A1C/A1;"""11""";Geschwindigkeit: ja;ASTRA;2678867.985;1253147.045;47.42440411;8.483889588;240
+O0287;4;Normalstreifen Richtung Verzw. A1C/A1;"""11""";Geschwindigkeit: ja;ASTRA;2678869.279;1253152.578;47.42445371;8.483907708;240

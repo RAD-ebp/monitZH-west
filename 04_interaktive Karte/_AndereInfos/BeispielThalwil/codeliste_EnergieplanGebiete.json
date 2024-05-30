@@ -1,0 +1,186 @@
+{
+  "P1": {
+    "Identifier": "empfohlenerEnergieTräger",
+    "Name": "Wärmeverbund ARA",
+    "Text": "An Ihrem Standort befindet sich der Wärmeverbund ARA. Ob Sie Ihre Liegenschaft an die Fernwärme anschliessen können, erfahren Sie beim Netzbetreiber EKZ.",
+    "Kontakt": {
+      "Titel": "EKZ Energiecontracting",
+      "Ansprechpartner": "Kurt Welten",
+      "Tel.": "058 359 21 25",
+      "E-Mail": "kurt.welten@ekz.ch"
+    },
+    "URL": "../fernwarme/bestehendes-fernwärmenetz/",
+    "EnergieOptionen": [
+      "Erdsonde-Wärmepumpe",
+      "Luft/Wasser Wärmepumpe",
+      "Biogas",
+      "Holz",
+      "Solarwärme"
+    ]
+  },
+  "P2": {
+    "Identifier": "empfohlenerEnergieTräger",
+    "Name": "Wärmeverbund Gattikon",
+    "Text": "An Ihrem Standort befindet sich der Wärmeverbund Gattikon. Ob Sie Ihre Liegenschaft an die Fernwärme anschliessen können, erfahren Sie beim Netzbetreiber ewz.",
+    "Kontakt": {
+      "Titel": "ewz Energiedienstleistungen",
+      "Ansprechpartner": "Markus Fischer, Leiter Verkaufsinnendienst",
+      "Tel.": "058 319 49 88",
+      "E-Mail": "markus.fischer@ewz.ch"
+    },
+    "URL": "../fernwarme/bestehendes-fernwärmenetz/",
+    "EnergieOptionen": [
+      "Erdsonde-Wärmepumpe",
+      "Luft/Wasser Wärmepumpe",
+      "Biogas",
+      "Holz",
+      "Solarwärme"
+    ]
+  },
+  "P3": {
+    "Identifier": "empfohlenerEnergieTräger",
+    "Name": "Seewasserwärmenutzung Farb",
+    "Text": "An Ihrem Standort befindet sich der Wärmeverbund Seewasserwärmenutzung Farb. Ob Sie Ihre Liegenschaft an die Fernwärme anschliessen können, erfahren Sie beim Netzbetreiber EKZ.",
+    "Kontakt": {
+      "Titel": "EKZ Energiecontracting",
+      "Ansprechpartner": "Kurt Welten",
+      "Tel.": "058 359 21 25",
+      "E-Mail": "kurt.welten@ekz.ch"
+    },
+    "URL": "../fernwarme/bestehendes-fernwärmenetz/",
+    "EnergieOptionen": [
+      "Erdsonde-Wärmepumpe",
+      "Luft/Wasser Wärmepumpe",
+      "Biogas",
+      "Holz",
+      "Solarwärme"
+    ]
+  },
+  "P4": {
+    "Identifier": "empfohlenerEnergieTräger",
+    "Name": "Energieverbund Zentrum",
+    "Text": "An Ihrem Standort befindet sich der Wärmeverbund Energieverbund Zentrum. Ob Sie Ihre Liegenschaft an die Fernwärme anschliessen können, erfahren Sie beim Netzbetreiber E360.",
+    "Kontakt": {
+      "Titel": "Energie 360° AG",
+      "Ansprechpartner": "Markus Thut, Projektleiter Verkauf Energienetze",
+      "Tel.": "043 317 25 25",
+      "E-Mail": "markus.thut@energie360.ch"
+    },
+    "URL": "../fernwarme/bestehendes-fernwärmenetz/",
+    "EnergieOptionen": [
+      "Erdsonde-Wärmepumpe",
+      "Luft/Wasser Wärmepumpe",
+      "Biogas",
+      "Holz",
+      "Solarwärme"
+    ]
+  },
+  "P5": {
+    "Identifier": "empfohlenerEnergieTräger",
+    "Name": "Erweiterung Wärmeverbund ARA",
+    "Text": "An Ihrem Standort befindet sich ein Wärmeverbund in Prüfung. Bis 2025 wird entschieden, ob die Erweiterung Wärmeverbund ARA realisiert wird. Ab 2028 sollen erste Kunden angeschlossen werden. Informieren Sie sich über das weitere Vorgehen.",
+    "Kontakt": {
+      "Titel": "Gemeinde Thalwil",
+      "Ansprechpartner": "Jan Adams, Leiter Werke",
+      "Tel.": "044 723 22 90",
+      "E-Mail": "jan.adams@thalwil.ch"
+    },
+    "URL": "../fernwarme/erweiterung-verbund-ara/",
+    "EnergieOptionen": [
+      "Erdsonde-Wärmepumpe",
+      "Luft/Wasser Wärmepumpe",
+      "Biogas",
+      "Holz",
+      "Solarwärme"
+    ]
+  },
+  "P6": {
+    "Identifier": "empfohlenerEnergieTräger",
+    "Name": "Wärmeverbund Marktweg",
+    "Text": "An Ihrem Standort befindet sich ein fossiler Wärmeverbund. Für einen erneuerbaren Heizungsträger verweisen wir auf den Energieplan der Gemeinde Thalwil und die darin beschriebenen Massnahmen.",
+    "Kontakt": {
+      "Titel": "Gemeinde Thalwil",
+      "Strasse": "Alte Landstrasse 110b",
+      "Postleitzahl": 8800,
+      "Gemeinde": "Thalwil",
+      "Ansprechpartner": "Martin Schmitz, Leiter Umwelt und Nachhaltigkeit",
+      "Tel.": "044 723 23 43",
+      "E-Mail": "martin.schmitz@thalwil.ch"
+    },
+    "URL": "../energieplanung/39533",
+    "EnergieOptionen": [
+      "Erdsonde-Wärmepumpe",
+      "Luft/Wasser Wärmepumpe",
+      "Biogas",
+      "Holz",
+      "Solarwärme"
+    ]
+  },
+  "P7": {
+    "Identifier": "empfohlenerEnergieTräger",
+    "Name": "Wärmeverbund Marbach",
+    "Text": "An Ihrem Standort befindet sich ein Wärmeverbund in Prüfung. Bis 2025 wird entschieden, ob der Wärmeverbund Marbach erstellt wird. Anschlusstermine sind noch nicht bekannt. Informieren Sie sich über das weitere Vorgehen.",
+    "Kontakt": {
+      "Titel": "Gemeinde Thalwil",
+      "Ansprechpartner": "Jan Adams, Leiter Werke",
+      "Tel.": "044 723 22 90",
+      "E-Mail": "jan.adams@thalwil.ch"
+    },
+    "URL": "../fernwarme/warme-fur-marbach-aus-dem-zurichsee/",
+    "EnergieOptionen": [
+      "Erdsonde-Wärmepumpe",
+      "Luft/Wasser Wärmepumpe",
+      "Biogas",
+      "Holz",
+      "Solarwärme"
+    ]
+  },
+  "E1": {
+    "Identifier": "empfohlenerEnergieTräger",
+    "Name": "Seewasser- oder Erdsonde-Wärmepumpen",
+    "Text": "Bei einem Zusammenschluss mehrerer Liegenschaften bietet sich in diesem Gebiet die Nutzung von Seewasser mit Wärmepumpe an. Alternativ können Sie eine Wärmepumpe mit Erdsonde bei Ihrer Liegenschaft grundsätzlich realisieren. Beachten Sie die gesetzlichen Auflagen des Kantons. Informieren Sie sich über das weitere Vorgehen.",
+    "Kontakt": {
+      "Titel": "Gemeinde Thalwil",
+      "Strasse": "Alte Landstrasse 110b",
+      "Postleitzahl": 8800,
+      "Gemeinde": "Thalwil",
+      "Ansprechpartner": "Martin Schmitz, Leiter Umwelt und Nachhaltigkeit",
+      "Tel.": "044 723 23 43",
+      "E-Mail": "martin.schmitz@thalwil.ch"
+    },
+    "URL": "../weitere-systeme/",
+    "EnergieOptionen": ["Luft/Wasser Wärmepumpe", "Biogas", "Holz", "Solarwärme"]
+  },
+  "E2": {
+    "Identifier": "empfohlenerEnergieTräger",
+    "Name": "Ersonde-Wärmepumpe",
+    "Text": "Sie können eine Wärmepumpe mit Erdsonde bei Ihrer Liegenschaft grundsätzlich realisieren. Beachten Sie die gesetzlichen Auflagen des Kantons. Informieren Sie sich über das weitere Vorgehen.",
+    "Kontakt": {
+      "Titel": "Gemeinde Thalwil",
+      "Strasse": "Alte Landstrasse 110b",
+      "Postleitzahl": 8800,
+      "Gemeinde": "Thalwil",
+      "Ansprechpartner": "Martin Schmitz, Leiter Umwelt und Nachhaltigkeit",
+      "Tel.": "044 723 23 43",
+      "E-Mail": "martin.schmitz@thalwil.ch"
+    },
+    "URL": "../weitere-systeme/",
+    "EnergieOptionen": ["Luft/Wasser Wärmepumpe", "Biogas", "Holz", "Solarwärme"]
+  },
+  "E3": {
+    "Identifier": "empfohlenerEnergieTräger",
+    "Name": "Ersonde-Wärmepumpe",
+    "Text": "Sie können eine Wärmepumpe mit Erdsonde bei Ihrer Liegenschaft grundsätzlich realisieren. Beachten Sie die gesetzlichen Auflagen des Kantons. Informieren Sie sich über das weitere Vorgehen.",
+    "Kontakt": {
+      "Titel": "Gemeinde Thalwil",
+      "Strasse": "Alte Landstrasse 110b",
+      "Postleitzahl": 8800,
+      "Gemeinde": "Thalwil",
+      "Ansprechpartner": "Martin Schmitz, Leiter Umwelt und Nachhaltigkeit",
+      "Tel.": "044 723 23 43",
+      "E-Mail": "martin.schmitz@thalwil.ch"
+    },
+    "URL": "../weitere-systeme/",
+    "EnergieOptionen": ["Luft/Wasser Wärmepumpe", "Biogas", "Holz", "Solarwärme"]
+  }
+}
