@@ -3,29 +3,43 @@
 <head>
     
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     
         <script>
             L_NO_TOUCH = false;
             L_DISABLE_3D = false;
         </script>
-    
-    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
-    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
-    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.4/xlsx.full.min.js"></script>
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+
+    <!-- Leaflet JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
     
-    <meta name="viewport" content="width=device-width,
-        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <!-- Leaflet Arrowheads Plugin -->
+    <script src="https://unpkg.com/leaflet-arrowheads/dist/leaflet-arrowheads.min.js"></script>
+
+    <!-- Leaflet GeometryUtil Plugin -->
+    <script src="https://unpkg.com/leaflet-geometryutil@0.9.2/dist/leaflet.geometryutil.min.js"></script>
+
+
+
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <script src="https://unpkg.com/@turf/turf/turf.min.js"></script>
+
+    
     <style>
         #map {
             position: relative;
@@ -96,6 +110,17 @@
             font-weight: bold;
         }   
 
+        .custom-div-icon .leaflet-marker-icon {
+            transform: rotate(90deg); /* Rotate the marker icon by 90 degrees */
+        }
+
+        .number-label {
+            color: black;
+            text-align: center;
+            font-weight: bold;
+            font-size: 12px;
+        }
+
     </style>
         
 </head>
@@ -134,13 +159,26 @@
         </div>
         <div class="dropdown verkehrsgroesse">
             <div>
-                <label>Verkehrsgrösse</label>
+                <label>Verkehrsgrösse MIV</label>
             </div>
             <select id="verkehrsgroesseSelect">
                 <option value="DTV">DTV</option>
                 <option value="DWV">DWV</option>
                 <option value="MSP">MSP</option>
                 <option value="ASP">ASP</option>
+            </select>
+        </div>
+        <div class="dropdown verkehrsgroesse oev">
+            <div>
+                <label>Verkehrsgrösse ÖV</label>
+            </div>
+            <select id="verkehrsgroesseSelectOev">
+                <option value="NVZ_med">NVZ Median</option>
+                <option value="NVZ_84">NVZ 0.84</option>
+                <option value="MSP_med">MSP Median</option>
+                <option value="MSP_84">MSP 0.84</option>
+                <option value="ASP_med">ASP Median</option>
+                <option value="ASP_84">ASP 0.84</option>
             </select>
         </div>
     </div>
@@ -152,13 +190,13 @@
     <div class="folium-map" id="map" ></div>
 </body>
 <script>
-    
+
     // map
     var map = L.map(
         "map",
         {
             center: [47.3875, 8.501944],
-            crs: L.CRS.EPSG3857,
+            crs: L.CRS.EPSG3857,  // entspricht WGS 84
             zoom: 13,
             zoomControl: true,
             preferCanvas: false,
@@ -170,15 +208,16 @@
     // background layers siwsstopo
     var tile_layer_swisstopo_color = L.tileLayer(
         "https://wmts20.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-farbe/default/current/3857/{z}/{x}/{y}.jpeg",
-        {"attribution": "Map data \u00a9 swisstopo (color)", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 22, "minZoom": 0, "noWrap": false, "opacity": 0.3, "subdomains": "abc", "tms": false}
+        {"attribution": "Map data \u00a9 swisstopo (color)", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 22, "minZoom": 0, "noWrap": false, "opacity": 0.3, "subdomains": "abc", "tms": false}
     );
         
     var tile_layer_swisstopo_grey = L.tileLayer(
         "https://wmts20.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-grau/default/current/3857/{z}/{x}/{y}.jpeg",
-        {"attribution": "Map data \u00a9 swisstopo (gray)", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 22, "minZoom": 0, "noWrap": false, "opacity": 0.3, "subdomains": "abc", "tms": false}
+        {"attribution": "Map data \u00a9 swisstopo (gray)", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 22, "minZoom": 0, "noWrap": false, "opacity": 0.3, "subdomains": "abc", "tms": false}
     );
     tile_layer_swisstopo_grey.addTo(map);
     
+    // TIEFBAUPROJEKTE
     // Load GeoJSON tiefbauprojekte data from file
     // Definition TeifbauProjektLayer-Variable
     var tiefbauprojekteLayer = L.geoJson(null, {
@@ -200,22 +239,96 @@
         })
         .catch(error => console.error('Error loading GeoJSON file:', error));
 
+    // Function to load GeoJSON layer based on the dropdown value
+    function loadGeoJsonLayer(filepath) {
+        fetch(filepath)
+            .then(response => response.json())
+            .then(data => {
+                // Check if tiefbauprojekteLayer already exists
+                if (tiefbauprojekteLayer) {
+                    // Clear existing data
+                    tiefbauprojekteLayer.clearLayers();
+                    // Add new GeoJSON data
+                    tiefbauprojekteLayer.addData(data);
+                } else {
+                    // Create a new GeoJSON layer if it doesn't exist
+                    tiefbauprojekteLayer = L.geoJSON(data, {
+                        onEachFeature: (feature, layer) => layer.on({}),
+                        style: (feature) => ({
+                            "color": "red",
+                            "weight": 2,
+                        })
+                    }).addTo(map);
 
-    // Load GeoJSON speed data from file
-    // Assuming speedData is your GeoJSON data
-    var speedLayer = L.geoJSON(null, {
+                    // Add the new layer to the layer control
+                    layerControl.addOverlay(geoJsonLayer, "Aktuelle Tiefbauprojekte"); // Add to the overlay group
+                }
+            })    
+            .catch(error => console.error('Error loading GeoJSON file:', error));
+    }
+
+    // Event listener for Monitoringperiode dropdown change
+    document.getElementById('periodeSelect').addEventListener('change', function() {
+        const selectedValue = this.value;
+        const filepath = `Monitoringzeitraeume/${selectedValue}/tiefbauprojekte.geojson`;
+        loadGeoJsonLayer(filepath);
+    });
+
+    // OEV-KORRIDORE
+    // Definition oevkorridorLayer-Variable
+    var oevkorridorLayer = L.geoJson(null, {
+        onEachFeature: (feature, layer) => {
+            // Get the center of the feature's bounds
+            var center = layer.getBounds().getCenter();
+
+            // Calculate the angle of rotation based on the geometry of the layer
+            var rotationAngle = Math.atan2(layer._bounds._northEast.lng - layer._bounds._southWest.lng, layer._bounds._northEast.lat - layer._bounds._southWest.lat) * (180 / Math.PI);
+
+/*             // Create a new div icon with the number as its HTML content
+            var icon = L.divIcon({
+                className: 'custom-div-icon',
+                // html: '<div class="number-label">' + feature.properties.ABSCHNITT + '</div>',
+                html: `<div>
+                            <div class="number-label"><span class="oev">12234</span></div>
+                        </div>`,
+                iconSize: [30, 30], // Adjust icon size as needed
+                iconAnchor: [15, 15], // Set the icon anchor to the center
+                rotationAngle: rotationAngle // Set the rotation angle
+            });
+
+            // Add a marker with the custom div icon at the center of the feature's bounds
+            L.marker(center, { icon: icon }).addTo(map); */
+        },
+        style: (feature) => ({
+            "color": "purple",
+            "weight": 3,
+        })
+    });
+    oevkorridorLayer.addTo(map);
+        // Beim Öffnen der Seite wird der Layer vom Jahr 2023 angezeigt
+    const oevkorridorDataFileName = 'OEV_Abschnitte.geojson';
+        fetch(oevkorridorDataFileName)
+            .then(response => response.json())
+            .then(data => {
+                oevkorridorLayer.addData(data);
+            })
+            .catch(error => console.error('Error loading GeoJSON file:', error));
+
+
+    // Load HERE-Daten (speed) from file
+    var speedLayer =  L.geoJSON(null, {
         style: function(feature) {
             // Define colors based on attribute values
-            var speed = feature.properties.SS_MSP; // Assuming speed is the attribute, SS=Spitzenstunde
+            var speed = feature.properties.SS_MSP; // SS=Spitzenstunde
             var weight = 2;
             if (speed >= 0 && speed < 20) {
-                return { color: 'green', weight: weight }; // Example color for speed range 0-20
+                return { color: 'green', weight: weight };
             } else if (speed >= 20 && speed < 40) {
-                return { color: 'yellow', weight: weight }; // Example color for speed range 20-40
+                return { color: 'yellow', weight: weight };
             } else if (speed >= 40 && speed < 60) {
-                return { color: 'orange', weight: weight }; // Example color for speed range 40-60
+                return { color: 'orange', weight: weight };
             } else {
-                return { color: 'red', weight: weight }; // Example color for speed range above 60
+                return { color: 'red', weight: weight };
             }
         }
     });
@@ -223,8 +336,6 @@
     // Add the speedLayer to the map
     speedLayer.addTo(map);
 
-
-    // Dies ist nötig, damit direkt am Anfang ein Layer angezeigt wird.
     // Function to load GeoJSON data and update the speedLayer
     function loadSpeedData(period) {
         var speedDataFileName = 'Monitoringzeitraeume/' + period + '/speed.geojson';
@@ -244,7 +355,6 @@
     // Trigger change event to load data for the initially selected period
     // Beim Öffnen der Seite wird der Layer im Ordner des Jahres 2023 angezeigt.
     document.getElementById('periodeSelect').dispatchEvent(new Event('change'));
-
 
 
     var layer_control_layers = {
@@ -299,42 +409,6 @@
         }
     }
 
-    // Function to load GeoJSON layer based on the dropdown value
-    function loadGeoJsonLayer(filepath) {
-        fetch(filepath)
-            .then(response => response.json())
-            .then(data => {
-                // Check if tiefbauprojekteLayer already exists
-                if (tiefbauprojekteLayer) {
-                    // Clear existing data
-                    tiefbauprojekteLayer.clearLayers();
-                    // Add new GeoJSON data
-                    tiefbauprojekteLayer.addData(data);
-                } else {
-                    // Create a new GeoJSON layer if it doesn't exist
-                    tiefbauprojekteLayer = L.geoJSON(data, {
-                        onEachFeature: (feature, layer) => layer.on({}),
-                        style: (feature) => ({
-                            "color": "red",
-                            "weight": 2,
-                        })
-                    }).addTo(map);
-
-                    // Add the new layer to the layer control
-                    layerControl.addOverlay(geoJsonLayer, "Aktuelle Tiefbauprojekte"); // Add to the overlay group
-                }
-            })    
-            .catch(error => console.error('Error loading GeoJSON file:', error));
-    }
-
-    // Event listener for Monitoringperiode dropdown change
-    document.getElementById('periodeSelect').addEventListener('change', function() {
-        const selectedValue = this.value;
-        const filepath = `Monitoringzeitraeume/${selectedValue}/tiefbauprojekte.geojson`;
-        loadGeoJsonLayer(filepath);
-    });
-
-
 
     // Create a control layers object
     const baseLayers = {
@@ -348,6 +422,7 @@
     // layer control
     layerControl.addOverlay(tiefbauprojekteLayer, "Aktuelle Tiefbauprojekte");
     layerControl.addOverlay(speedLayer, "HERE-Daten");
+    layerControl.addOverlay(oevkorridorLayer, "ÖV-Korridore");
 
 
     // Define a layer group for the markers
@@ -423,11 +498,9 @@
                     icon: L.divIcon({
                             className: 'custom-arrow-icon',
                             html: `<div class="arrow-container" style="transform: rotate(${angle}deg);">
-                                        <div class="arrow">&#8593;</div>
+                                        <div class="arrow">&#8593;</div> 
                                         <div class="number"><span class="value">12234</span></div>
                                     </div>`,
-                                    
-                                    /* <div class="number"><span class="dtvValue">${dtvValue}</span></div> */
                             iconSize: null,
                             iconAnchor: [10, 10]
                         })
@@ -440,74 +513,21 @@
                 const popupContent = `<div>
                                         <strong>ZSID:</strong> ${zstNummer}<br>
                                         <strong>Richtung:</strong> ${name}<br>
-                                        
                                         <strong class="verkehrsgroesse-label"></strong>: <span class="dtvValue">${dtvValue}</span><br>
                                         <a class="popupLink" href="#" target="_blank">Faktenblatt</a>
                                     </div>`;
-                                    /* <strong class="verkehrsgroesse-label"></strong>: <span class="dtvValue"></span><br> */
                 arrowMarker.bindPopup(popupContent);
 
-                // !!! NEW !!! Function for the arrowMarker coloring
-                // Function to create arrow icon with dynamic color based on data from Excel
-                /* function createArrowIcon(angle, zstNummer) {
-                    // Load Excel file with additional data
-                    console.log('inside createArrow function.')
-                    return fetch('Vergleich.xlsx')
-                        .then(response => {
-                            if (!response.ok) {
-                                throw new Error(`HTTP error! status: ${response.status}`);
-                            }
-                            return response.arrayBuffer();
-                        })
-                        .then(data => {
-                            // Parse the Excel file
-                            const workbook = XLSX.read(data, { type: 'array' });
-
-                            // Get the sheet name based on the dropdown selection
-                            const sheetName = selectedPeriode; // Use the selected period from the dropdown
-
-                            // Check if the sheet exists in the workbook
-                            if (!workbook.Sheets[sheetName]) {
-                                console.error('Sheet does not exist:', sheetName);
-                                return;
-                            }
-
-                            // Get the selected sheet
-                            const sheet = workbook.Sheets[sheetName];
-
-                            // Convert the sheet data to JSON format
-                            const jsonData = XLSX.utils.sheet_to_json(sheet, { header: 1 });
-
-                            // Find the row corresponding to the zstNummer in the Excel data
-                            const excelRow = jsonData.find(row => row[0] === zstNummer); // Assuming zstNummer is in the first column
-                            
-                            // define column name
-                            const columnName = `${verkehrsgroesseSelected}_diff_${selectedVergleich}_p`;
-                            console.log(columnName)
-                            // Get the value from column determining color
-                            const valueFromColorColumn = excelRow ? excelRow[columnName] : null;
-
-                            // Define a color scale mapping values to colors
-                            const colorScale = d3.scaleThreshold()
-                                .domain([33, 66]) // Adjust the thresholds according to your data
-                                .range(['blue', 'black', 'red']); // Define the color range
-
-                            // Get the color based on the value from column ColorColumn
-                            const color = valueFromColorColumn ? colorScale(valueFromColorColumn) : 'black'; // Default to black if value is missing
-
-                            // Create the icon with the dynamic color
-                            return L.divIcon({
-                                className: 'custom-arrow-icon',
-                                html: `<div style="display: flex; align-items: center;">
-                                        <div style="transform: rotate(${angle}deg); color: ${color};">&#8593;</div>
-                                    </div>`,
-                                iconSize: [10, 10],
-                                iconAnchor: [10, 10]
-                            });
-                        })
-                        .catch(error => console.error('Error loading Excel file:', error));
-                } */
-                // !!! END of new section !!!
+                // Function to update the 'dtvValue' within the arrow marker's icon
+                function updateMarkerIcon(marker, newValue) {
+                    const icon = marker.getIcon();
+                    const iconHtml = icon.options.html;
+                    const parser = new DOMParser();
+                    const doc = parser.parseFromString(iconHtml, 'text/html');
+                    doc.querySelector('.value').textContent = Math.round(Number(newValue));
+                    icon.options.html = doc.body.innerHTML;
+                    marker.setIcon(icon);
+                }
 
                 // Function to update the popup content based on dropdown selections
                 function updatePopupContent() {
@@ -571,9 +591,7 @@
                                 if (selectedVerkehrsgroesse === 'DTV') {
                                     // Überschrift finden
                                     var headline = 'DTV_diff_' + selectedVergleich;
-                                    /* console.log('headline',headline) */
                                     var verkehrsgroesseIndex = jsonData[0].indexOf(headline);
-                                    /* console.log('index',verkehrsgroesseIndex) */
                                 } else if (selectedVerkehrsgroesse === 'DWV') {
                                     var headline = 'DWV_diff_' + selectedVergleich;
                                     var verkehrsgroesseIndex = jsonData[0].indexOf(headline);
@@ -595,8 +613,11 @@
 
 
                             const selectedValue = excelRow ? excelRow[verkehrsgroesseIndex] : 'N/A';
-                            updateDtvValue(selectedValue); // !!! NEU !!!
-                            /* console.log(selectedValue) */
+                            /* updateDtvValue(selectedValue); // !!! NEU !!! */
+                            
+
+                            // Update the 'dtvValue' in the arrow marker icon
+                            updateMarkerIcon(arrowMarker, selectedValue);
 
                             // Update the value in the popup content for the specific marker
                             const popup = arrowMarker.getPopup();
@@ -626,13 +647,10 @@
 
                 // Add event listener to dropdown periode
                 document.getElementById('periodeSelect').addEventListener('change', updatePopupContent);
-
                 // Add event listener to dropdown verkehrsgroesseSelect
                 document.getElementById('verkehrsgroesseSelect').addEventListener('change', updatePopupContent);
-
                 // Add event listener to dropdown vergleichSelect
                 document.getElementById('vergleichSelect').addEventListener('change', updatePopupContent);
-
                 // Add event listener to dropdown modusSelect
                 document.getElementById('modusSelect').addEventListener('change', updatePopupContent);
 
@@ -658,6 +676,9 @@
         // Tiefbaprojekte Layer
         div.innerHTML += '<br><strong>Tiefbauprojekte</strong><br>';
         div.innerHTML += '<i style="background: blue"></i> Projekte<br>';
+        // OEV-Korridore Layer
+        div.innerHTML += '<br><strong>OEV-Korridore</strong><br>';
+        div.innerHTML += '<i style="background: purple"></i> Korridore<br>';
         // Add more legend entries as needed
         return div;
     };
