@@ -1,0 +1,1706 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.494623,
+          47.36779
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z004",
+        "RichtungsNR": "1",
+        "RichtungsName": "ausw\u00e4rts",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2679762.52,
+        "Koordinaten N (LV95)": 1246863.95,
+        "Pfeilgrad": "230"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.494745,
+          47.367684
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z004",
+        "RichtungsNR": "2",
+        "RichtungsName": "einw\u00e4rts",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2679771.84,
+        "Koordinaten N (LV95)": 1246852.29,
+        "Pfeilgrad": "70"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.482991,
+          47.374504
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z005",
+        "RichtungsNR": "1",
+        "RichtungsName": "ausw\u00e4rts",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2678874.03,
+        "Koordinaten N (LV95)": 1247598.55,
+        "Pfeilgrad": "240"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.482963,
+          47.374452
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z005",
+        "RichtungsNR": "2",
+        "RichtungsName": "einw\u00e4rts",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2678871.97,
+        "Koordinaten N (LV95)": 1247592.79,
+        "Pfeilgrad": "60"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.47211,
+          47.393996
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z006",
+        "RichtungsNR": "1",
+        "RichtungsName": "ausw\u00e4rts",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2678023.77,
+        "Koordinaten N (LV95)": 1249754.67,
+        "Pfeilgrad": "300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.472024,
+          47.393932
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z006",
+        "RichtungsNR": "2",
+        "RichtungsName": "einw\u00e4rts",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2678017.34,
+        "Koordinaten N (LV95)": 1249747.52,
+        "Pfeilgrad": "120"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.473628,
+          47.398127
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z007",
+        "RichtungsNR": "1",
+        "RichtungsName": "einw\u00e4rts",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2678132.31,
+        "Koordinaten N (LV95)": 1250215.47,
+        "Pfeilgrad": "105"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.473674,
+          47.39823
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z007",
+        "RichtungsNR": "2",
+        "RichtungsName": "ausw\u00e4rts",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2678135.59,
+        "Koordinaten N (LV95)": 1250227.0,
+        "Pfeilgrad": "285"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.480484,
+          47.405242
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z008",
+        "RichtungsNR": "1",
+        "RichtungsName": "ausw\u00e4rts",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2678639.3,
+        "Koordinaten N (LV95)": 1251013.35,
+        "Pfeilgrad": "280"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.479075,
+          47.405061
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z008",
+        "RichtungsNR": "2",
+        "RichtungsName": "einw\u00e4rts",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2678533.23,
+        "Koordinaten N (LV95)": 1250991.72,
+        "Pfeilgrad": "80"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.483376,
+          47.415956
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z009",
+        "RichtungsNR": "1",
+        "RichtungsName": "ausw\u00e4rts",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2678841.72,
+        "Koordinaten N (LV95)": 1252207.33,
+        "Pfeilgrad": "350"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.483308,
+          47.415952
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z009",
+        "RichtungsNR": "2",
+        "RichtungsName": "einw\u00e4rts",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2678836.59,
+        "Koordinaten N (LV95)": 1252206.8,
+        "Pfeilgrad": "170"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.495215,
+          47.399283
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z025",
+        "RichtungsNR": "1",
+        "RichtungsName": "H\u00f6ngg",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2679760.06,
+        "Koordinaten N (LV95)": 1250365.74,
+        "Pfeilgrad": "20"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.495195,
+          47.399544
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z025",
+        "RichtungsNR": "2",
+        "RichtungsName": "Altstetten",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2679758.14,
+        "Koordinaten N (LV95)": 1250394.64,
+        "Pfeilgrad": "200"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.537517,
+          47.385645
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z033",
+        "RichtungsNR": "1",
+        "RichtungsName": "ausw\u00e4rts",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2682974.4,
+        "Koordinaten N (LV95)": 1248893.38,
+        "Pfeilgrad": "45"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.537243,
+          47.385823
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z033",
+        "RichtungsNR": "2",
+        "RichtungsName": "einw\u00e4rts",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2682953.4,
+        "Koordinaten N (LV95)": 1248912.91,
+        "Pfeilgrad": "225"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.525735,
+          47.394893
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z038",
+        "RichtungsNR": "1",
+        "RichtungsName": "Bucheggplatz",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2682070.59,
+        "Koordinaten N (LV95)": 1249909.12,
+        "Pfeilgrad": "20"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.525657,
+          47.394918
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z038",
+        "RichtungsNR": "2",
+        "RichtungsName": "Hardbr\u00fccke",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2682064.64,
+        "Koordinaten N (LV95)": 1249911.79,
+        "Pfeilgrad": "200"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.515117,
+          47.383185
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z039",
+        "RichtungsNR": "4",
+        "RichtungsName": "Albisriederplatz und Hohlstrasse",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2681286.9,
+        "Koordinaten N (LV95)": 1248596.51,
+        "Pfeilgrad": "210"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.492942,
+          47.393129
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z050",
+        "RichtungsNR": "1",
+        "RichtungsName": "H\u00f6ngg",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2679597.69,
+        "Koordinaten N (LV95)": 1249679.24,
+        "Pfeilgrad": "10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.492835,
+          47.393143
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z050",
+        "RichtungsNR": "2",
+        "RichtungsName": "Altstetten",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2679589.59,
+        "Koordinaten N (LV95)": 1249680.65,
+        "Pfeilgrad": "190"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.47455,
+          47.397801
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z060",
+        "RichtungsNR": "5",
+        "RichtungsName": "Bernerstrasse",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2678202.38,
+        "Koordinaten N (LV95)": 1250180.13,
+        "Pfeilgrad": "15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.474411,
+          47.397747
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z060",
+        "RichtungsNR": "6",
+        "RichtungsName": "Badenerstrasse",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2678191.96,
+        "Koordinaten N (LV95)": 1250174.04,
+        "Pfeilgrad": "195"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.511738,
+          47.389578
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z061",
+        "RichtungsNR": "1",
+        "RichtungsName": "Hohlstrasse",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2681022.02,
+        "Koordinaten N (LV95)": 1249303.64,
+        "Pfeilgrad": "240"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51199,
+          47.389549
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z061",
+        "RichtungsNR": "2",
+        "RichtungsName": "Pfingstweidstrasse",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2681041.14,
+        "Koordinaten N (LV95)": 1249300.71,
+        "Pfeilgrad": "60"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.499435,
+          47.37747
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z063",
+        "RichtungsNR": "1",
+        "RichtungsName": "Hubertus",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2680111.39,
+        "Koordinaten N (LV95)": 1247945.02,
+        "Pfeilgrad": "280"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.499535,
+          47.377331
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z063",
+        "RichtungsNR": "2",
+        "RichtungsName": "Albisriederplatz",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2680119.19,
+        "Koordinaten N (LV95)": 1247929.69,
+        "Pfeilgrad": "90"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.499916,
+          47.376522
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z064",
+        "RichtungsNR": "3",
+        "RichtungsName": "Hubertus",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2680149.109,
+        "Koordinaten N (LV95)": 1247840.135,
+        "Pfeilgrad": "320"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.49992,
+          47.376431
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z064",
+        "RichtungsNR": "4",
+        "RichtungsName": "Birmensdorferstrasse",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2680149.561,
+        "Koordinaten N (LV95)": 1247829.965,
+        "Pfeilgrad": "140"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.521977,
+          47.377702
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z066",
+        "RichtungsNR": "1",
+        "RichtungsName": "Helvetiaplatz",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2681813.28,
+        "Koordinaten N (LV95)": 1247994.07,
+        "Pfeilgrad": "120"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.522178,
+          47.377687
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z066",
+        "RichtungsNR": "2",
+        "RichtungsName": "Seebahnstrasse",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2681828.48,
+        "Koordinaten N (LV95)": 1247992.53,
+        "Pfeilgrad": "300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.519595,
+          47.38054
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z070",
+        "RichtungsNR": "1",
+        "RichtungsName": "Hardplatz",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2681629.07,
+        "Koordinaten N (LV95)": 1248307.08,
+        "Pfeilgrad": "290"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.519597,
+          47.380391
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z070",
+        "RichtungsNR": "2",
+        "RichtungsName": "Seebahnstrasse",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2681629.46,
+        "Koordinaten N (LV95)": 1248290.46,
+        "Pfeilgrad": "110"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.513623,
+          47.376922
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z071",
+        "RichtungsNR": "1",
+        "RichtungsName": "Albisriederplatz",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2681183.65,
+        "Koordinaten N (LV95)": 1247898.67,
+        "Pfeilgrad": "290"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.513512,
+          47.376823
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z071",
+        "RichtungsNR": "2",
+        "RichtungsName": "Seebahnstrasse",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2681175.41,
+        "Koordinaten N (LV95)": 1247887.5,
+        "Pfeilgrad": "110"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.505316,
+          47.391673
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z076",
+        "RichtungsNR": "1",
+        "RichtungsName": "ausw\u00e4rts",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2680534.0,
+        "Koordinaten N (LV95)": 1249530.0,
+        "Pfeilgrad": "290"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.503654,
+          47.392048
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z076",
+        "RichtungsNR": "2",
+        "RichtungsName": "einw\u00e4rts",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2680408.0,
+        "Koordinaten N (LV95)": 1249570.0,
+        "Pfeilgrad": "110"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.520002,
+          47.347115
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z079",
+        "RichtungsNR": "3",
+        "RichtungsName": "Uetlibergtunnel",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2681711.03,
+        "Koordinaten N (LV95)": 1244591.58,
+        "Pfeilgrad": "240"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.520353,
+          47.346949
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z079",
+        "RichtungsNR": "4",
+        "RichtungsName": "einw\u00e4rts",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2681737.76,
+        "Koordinaten N (LV95)": 1244573.5,
+        "Pfeilgrad": "35"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.520122,
+          47.347055
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z080",
+        "RichtungsNR": "5",
+        "RichtungsName": "Chur",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2681720.14,
+        "Koordinaten N (LV95)": 1244585.09,
+        "Pfeilgrad": "225"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.520231,
+          47.347004
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z080",
+        "RichtungsNR": "6",
+        "RichtungsName": "einw\u00e4rts",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2681728.49,
+        "Koordinaten N (LV95)": 1244579.52,
+        "Pfeilgrad": "45"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.517445,
+          47.388055
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z081",
+        "RichtungsNR": "1",
+        "RichtungsName": "ausw\u00e4rts",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2681455.2,
+        "Koordinaten N (LV95)": 1249140.27,
+        "Pfeilgrad": "300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.517933,
+          47.387724
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z081",
+        "RichtungsNR": "2",
+        "RichtungsName": "Hardbr\u00fccke",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2681492.61,
+        "Koordinaten N (LV95)": 1249103.94,
+        "Pfeilgrad": "120"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.515165,
+          47.383162
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z082",
+        "RichtungsNR": "1",
+        "RichtungsName": "Bucheggplatz",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2681290.57,
+        "Koordinaten N (LV95)": 1248593.98,
+        "Pfeilgrad": "25"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.515117,
+          47.383185
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z082",
+        "RichtungsNR": "2",
+        "RichtungsName": "Albissriederplatz",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2681286.9,
+        "Koordinaten N (LV95)": 1248596.51,
+        "Pfeilgrad": "205"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.515613,
+          47.383457
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z083",
+        "RichtungsNR": "1",
+        "RichtungsName": "Bucheggplatz",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2681323.95,
+        "Koordinaten N (LV95)": 1248627.21,
+        "Pfeilgrad": "wie Z082?"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.515335,
+          47.383511
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z083",
+        "RichtungsNR": "3",
+        "RichtungsName": "Hohlstrasse",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2681302.84,
+        "Koordinaten N (LV95)": 1248632.97,
+        "Pfeilgrad": "205"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.503033,
+          47.397238
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z092",
+        "RichtungsNR": "1",
+        "RichtungsName": "ausw\u00e4rts",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2680353.27,
+        "Koordinaten N (LV95)": 1250146.37,
+        "Pfeilgrad": "300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.503006,
+          47.397217
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z092",
+        "RichtungsNR": "2",
+        "RichtungsName": "einw\u00e4rts",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2680351.25,
+        "Koordinaten N (LV95)": 1250143.93,
+        "Pfeilgrad": "120"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.508304,
+          47.393792
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z093",
+        "RichtungsNR": "1",
+        "RichtungsName": "ausw\u00e4rts",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2680756.38,
+        "Koordinaten N (LV95)": 1249768.58,
+        "Pfeilgrad": "275"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50894,
+          47.393743
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z093",
+        "RichtungsNR": "2",
+        "RichtungsName": "einw\u00e4rts",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2680804.49,
+        "Koordinaten N (LV95)": 1249763.88,
+        "Pfeilgrad": "95"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.469977,
+          47.394744
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "M0709",
+        "RichtungsNR": "1",
+        "RichtungsName": "Normalspur Richtung Z\u00fcrich",
+        "Fahrzeugkategorien": "PW, LW, unklar",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "KT",
+        "Koordinaten E (LV95)": 2677861.67,
+        "Koordinaten N (LV95)": 1249835.692,
+        "Pfeilgrad": "110"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.469973,
+          47.394867
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "M0709",
+        "RichtungsNR": "2",
+        "RichtungsName": "Normalspur Richtung Schlieren",
+        "Fahrzeugkategorien": "PW, LW, unklar",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "KT",
+        "Koordinaten E (LV95)": 2677861.164,
+        "Koordinaten N (LV95)": 1249849.349,
+        "Pfeilgrad": "290"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.467405,
+          47.369709
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "M0609",
+        "RichtungsNR": "1_2",
+        "RichtungsName": "Richtung Z\u00fcrich",
+        "Fahrzeugkategorien": "PW, LW, unklar",
+        "Kommentar": "keine verschiedenen Koordinaten vorhanden",
+        "Herkunft (DAV, KT, ASTRA)": "KT",
+        "Koordinaten E (LV95)": 2677704.0,
+        "Koordinaten N (LV95)": 1247050.0,
+        "Pfeilgrad": "60"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.467405,
+          47.369709
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "M0609",
+        "RichtungsNR": "3_4",
+        "RichtungsName": "Richtung Birmensdorf",
+        "Fahrzeugkategorien": "PW, LW, unklar",
+        "Kommentar": "keine verschiedenen Koordinaten vorhanden",
+        "Herkunft (DAV, KT, ASTRA)": "KT",
+        "Koordinaten E (LV95)": 2677704.0,
+        "Koordinaten N (LV95)": 1247050.0,
+        "Pfeilgrad": "240"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.476956,
+          47.40528
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "M2420",
+        "RichtungsNR": "1_2",
+        "RichtungsName": "Richtung Z\u00fcrich",
+        "Fahrzeugkategorien": "PW, LW, unklar",
+        "Kommentar": "keine verschiedenen Koordinaten vorhanden",
+        "Herkunft (DAV, KT, ASTRA)": "KT",
+        "Koordinaten E (LV95)": 2678373.0,
+        "Koordinaten N (LV95)": 1251014.0,
+        "Pfeilgrad": "95"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.476956,
+          47.40528
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "M2420",
+        "RichtungsNR": "3",
+        "RichtungsName": "Richtung Oberengstringen",
+        "Fahrzeugkategorien": "PW, LW, unklar",
+        "Kommentar": "keine verschiedenen Koordinaten vorhanden",
+        "Herkunft (DAV, KT, ASTRA)": "KT",
+        "Koordinaten E (LV95)": 2678373.0,
+        "Koordinaten N (LV95)": 1251014.0,
+        "Pfeilgrad": "275"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.48398,
+          47.424316
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "O0287",
+        "RichtungsNR": "1_2",
+        "RichtungsName": "Richtung Glattbrugg",
+        "Fahrzeugkategorien": "\"11\"",
+        "Kommentar": "Geschwindigkeit: ja",
+        "Herkunft (DAV, KT, ASTRA)": "ASTRA",
+        "Koordinaten E (LV95)": 2678874.9145,
+        "Koordinaten N (LV95)": 1253137.386,
+        "Pfeilgrad": "60"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.483899,
+          47.424429
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "O0287",
+        "RichtungsNR": "3_4",
+        "RichtungsName": "Richtung Verzw. A1C/A1",
+        "Fahrzeugkategorien": "\"11\"",
+        "Kommentar": "Geschwindigkeit: ja",
+        "Herkunft (DAV, KT, ASTRA)": "ASTRA",
+        "Koordinaten E (LV95)": 2678686.632,
+        "Koordinaten N (LV95)": 1253149.8115,
+        "Pfeilgrad": "240"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.459348,
+          47.405275
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "O0066",
+        "RichtungsNR": "1_2_3_4",
+        "RichtungsName": "Richtung Z\u00fcrich",
+        "Fahrzeugkategorien": "\"11\"",
+        "Kommentar": "keine verschiedenen Koordinaten vorhanden",
+        "Herkunft (DAV, KT, ASTRA)": "ASTRA",
+        "Koordinaten E (LV95)": 2677044.0,
+        "Koordinaten N (LV95)": 1250996.0,
+        "Pfeilgrad": "300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.459348,
+          47.405275
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "O0066",
+        "RichtungsNR": "5_6_7",
+        "RichtungsName": "Richtung Bern",
+        "Fahrzeugkategorien": "\"11\"",
+        "Kommentar": "keine verschiedenen Koordinaten vorhanden",
+        "Herkunft (DAV, KT, ASTRA)": "ASTRA",
+        "Koordinaten E (LV95)": 2677044.0,
+        "Koordinaten N (LV95)": 1250996.0,
+        "Pfeilgrad": "110"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.422963,
+          47.367848
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "O0301",
+        "RichtungsNR": "1_2_3_4",
+        "RichtungsName": "Rictung Verzweigung Z\u00fcrich W",
+        "Fahrzeugkategorien": "\"11\"",
+        "Kommentar": "keine verschiedenen Koordinaten vorhanden",
+        "Herkunft (DAV, KT, ASTRA)": "ASTRA",
+        "Koordinaten E (LV95)": 2674350.0,
+        "Koordinaten N (LV95)": 1246800.0,
+        "Pfeilgrad": "180"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.422963,
+          47.367848
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "O0301",
+        "RichtungsNR": "5_6_7_8",
+        "RichtungsName": "Richtung Urdorf",
+        "Fahrzeugkategorien": "\"11\"",
+        "Kommentar": "keine verschiedenen Koordinaten vorhanden",
+        "Herkunft (DAV, KT, ASTRA)": "ASTRA",
+        "Koordinaten E (LV95)": 2674350.0,
+        "Koordinaten N (LV95)": 1246800.0,
+        "Pfeilgrad": "340"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.494186,
+          47.393529
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "O0518",
+        "RichtungsNR": "1",
+        "RichtungsName": "Einfahrt ZH Bernerstrasse",
+        "Fahrzeugkategorien": "\"11\"",
+        "Kommentar": "keine verschiedenen Koordinaten vorhanden",
+        "Herkunft (DAV, KT, ASTRA)": "ASTRA",
+        "Koordinaten E (LV95)": 2679691.0,
+        "Koordinaten N (LV95)": 1249725.0,
+        "Pfeilgrad": "90"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.494186,
+          47.393529
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "O0518",
+        "RichtungsNR": "6",
+        "RichtungsName": "Ausfahrt Richtung Limmattalerkreuz Bernerstrasse",
+        "Fahrzeugkategorien": "\"11\"",
+        "Kommentar": "keine verschiedenen Koordinaten vorhanden",
+        "Herkunft (DAV, KT, ASTRA)": "ASTRA",
+        "Koordinaten E (LV95)": 2679691.0,
+        "Koordinaten N (LV95)": 1249725.0,
+        "Pfeilgrad": "275"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.494186,
+          47.393529
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "O0518",
+        "RichtungsNR": "2_3",
+        "RichtungsName": "Richtung Z\u00fcrich",
+        "Fahrzeugkategorien": "\"11\"",
+        "Kommentar": "keine verschiedenen Koordinaten vorhanden",
+        "Herkunft (DAV, KT, ASTRA)": "ASTRA",
+        "Koordinaten E (LV95)": 2679691.0,
+        "Koordinaten N (LV95)": 1249725.0,
+        "Pfeilgrad": "90"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.494186,
+          47.393529
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "O0518",
+        "RichtungsNR": "4_5",
+        "RichtungsName": "Richtung Limmattalerkreuz",
+        "Fahrzeugkategorien": "\"11\"",
+        "Kommentar": "keine verschiedenen Koordinaten vorhanden",
+        "Herkunft (DAV, KT, ASTRA)": "ASTRA",
+        "Koordinaten E (LV95)": 2679691.0,
+        "Koordinaten N (LV95)": 1249725.0,
+        "Pfeilgrad": "275"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.49884,
+          47.377811
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z098",
+        "RichtungsNR": "1",
+        "RichtungsName": "Letzigrund",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2680065.92,
+        "Koordinaten N (LV95)": 1247982.342,
+        "Pfeilgrad": "30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.49869,
+          47.377717
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z098",
+        "RichtungsNR": "2",
+        "RichtungsName": "ausw\u00e4rts",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2680054.761,
+        "Koordinaten N (LV95)": 1247971.654,
+        "Pfeilgrad": "210"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.492827,
+          47.377895
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z099",
+        "RichtungsNR": "1",
+        "RichtungsName": "einw\u00e4rts",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2679611.727,
+        "Koordinaten N (LV95)": 1247985.555,
+        "Pfeilgrad": "50"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.492751,
+          47.377956
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z099",
+        "RichtungsNR": "2",
+        "RichtungsName": "ausw\u00e4rts",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2679605.908,
+        "Koordinaten N (LV95)": 1247992.186,
+        "Pfeilgrad": "230"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.488344,
+          47.382255
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z100",
+        "RichtungsNR": "1",
+        "RichtungsName": "Altstetter-/Luggwegstrasse",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2679266.719,
+        "Koordinaten N (LV95)": 1248465.663,
+        "Pfeilgrad": "285"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.48844,
+          47.382157
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z100",
+        "RichtungsNR": "2",
+        "RichtungsName": "Albisriederstrasse",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2679274.175,
+        "Koordinaten N (LV95)": 1248454.831,
+        "Pfeilgrad": "105"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.483667,
+          47.381976
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z101",
+        "RichtungsNR": "5",
+        "RichtungsName": "einw\u00e4rts",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2678914.0,
+        "Koordinaten N (LV95)": 1248430.0,
+        "Pfeilgrad": "10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.483627,
+          47.381977
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z101",
+        "RichtungsNR": "6",
+        "RichtungsName": "ausw\u00e4rts",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2678911.0,
+        "Koordinaten N (LV95)": 1248430.0,
+        "Pfeilgrad": "190"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.48016,
+          47.390248
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z102",
+        "RichtungsNR": "1",
+        "RichtungsName": "ausw\u00e4rts",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2678637.0,
+        "Koordinaten N (LV95)": 1249346.0,
+        "Pfeilgrad": "305"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.480092,
+          47.390149
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z102",
+        "RichtungsNR": "2",
+        "RichtungsName": "einw\u00e4rts",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2678632.0,
+        "Koordinaten N (LV95)": 1249335.0,
+        "Pfeilgrad": "125"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.481512,
+          47.391851
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z103",
+        "RichtungsNR": "1",
+        "RichtungsName": "ausw\u00e4rts",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2678736.674,
+        "Koordinaten N (LV95)": 1249525.658,
+        "Pfeilgrad": "250"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.482228,
+          47.391898
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z103",
+        "RichtungsNR": "2",
+        "RichtungsName": "einw\u00e4rts",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2678790.668,
+        "Koordinaten N (LV95)": 1249531.613,
+        "Pfeilgrad": "80"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.485343,
+          47.395914
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z104",
+        "RichtungsNR": "1",
+        "RichtungsName": "Altstetten",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2679019.898,
+        "Koordinaten N (LV95)": 1249981.167,
+        "Pfeilgrad": "210"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.485381,
+          47.395896
+        ]
+      },
+      "properties": {
+        "ZST_Nummer": "Z104",
+        "RichtungsNR": "2",
+        "RichtungsName": "H\u00f6ngg/Europabr\u00fccke",
+        "Fahrzeugkategorien": "Anzahl Fahrzeuge (nicht spezifiziert)",
+        "Kommentar": "Geschwindigkeit: nein",
+        "Herkunft (DAV, KT, ASTRA)": "DAV",
+        "Koordinaten E (LV95)": 2679022.818,
+        "Koordinaten N (LV95)": 1249979.16,
+        "Pfeilgrad": "30"
+      }
+    }
+  ]
+}
